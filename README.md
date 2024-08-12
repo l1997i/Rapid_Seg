@@ -12,7 +12,7 @@
 </div> 
 
 
-# 🔥 RAPiD-Seg: Range-Aware Pointwise Distance Distribution Networks for 3D LiDAR Segmentation [ECCV 2024]
+# 🔥 RAPiD-Seg: Range-Aware Pointwise Distance Distribution Networks for 3D LiDAR Segmentation [ECCV 2024 Oral]
 
 Coming soon!
 
