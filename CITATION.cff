@@ -45,5 +45,5 @@ preferred-citation:
   doi: "10.1109/CVPR52729.2023.00903"
   collection-title: "European Conference on Computer Vision (ECCV)"
   title: "RAPiD-Seg: Range-Aware Pointwise Distance Distribution Networks for 3D LiDAR Segmentation"
-  month: july
+  month: "july"
   year: 2024
