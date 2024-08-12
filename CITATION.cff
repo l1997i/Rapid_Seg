@@ -1,0 +1,49 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: >-
+  RAPiD-Seg: Range-Aware Pointwise Distance 
+  Distribution Networks for 3D LiDAR Segmentation
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Li
+    family-names: Li
+    email: li.li4@durham.ac.uk
+    affiliation: Durham University
+    orcid: 'https://orcid.org/0000-0002-9392-7862'
+  - given-names: Toby P.
+    family-names: Breckon
+    email: toby.breckon@durham.ac.uk
+    affiliation: Durham University
+    orcid: 'https://orcid.org/0000-0003-1666-7590'
+  - given-names: Hubert P. H.
+    family-names: Shum
+    email: hubert.shum@durham.ac.uk
+    affiliation: Durham University
+    orcid: 'https://orcid.org/0000-0001-5651-6039'
+identifiers:
+  - type: doi
+    value: 10.48550/arXiv.2407.10159
+repository-code: 'https://github.com/l1997i/rapid_seg/'
+license: Apache-2.0
+preferred-citation:
+  type: conference-paper
+  authors:
+  - family-names: "Li"
+    given-names: "Li"
+    orcid: "https://orcid.org/0000-0002-9392-7862"
+  - family-names: "Shum"
+    given-names: "Hubert P. H."
+    orcid: "https://orcid.org/0000-0001-5651-6039"
+  - family-names: "Breckon"
+    given-names: "Toby P."
+    orcid: "https://orcid.org/0000-0003-1666-7590"
+  doi: "10.1109/CVPR52729.2023.00903"
+  collection-title: "European Conference on Computer Vision (ECCV)"
+  title: "RAPiD-Seg: Range-Aware Pointwise Distance Distribution Networks for 3D LiDAR Segmentation"
+  month: july
+  year: 2024
