@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+
+# caches / outputs
+data/**/_cache/
+data/**/_cache_full/
+experiments/
+*.pt
+
+# datasets (download separately; see data/README.md)
+data/semantickitti_sp/
+data/semantickitti_full/
+
+# OS / editors
+.DS_Store
+.idea/
+.vscode/
+.pytest_cache/
+.coverage
+htmlcov/

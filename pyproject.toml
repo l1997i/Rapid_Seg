@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rapid-seg"
+version = "1.0.0"
+description = "RAPiD-Seg: Range-Aware Pointwise Distance Distribution Networks for 3D LiDAR Segmentation (ECCV 2024 Oral)"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [
+    { name = "Li Li", email = "li.li4@durham.ac.uk" },
+    { name = "Hubert P. H. Shum", email = "hubert.shum@durham.ac.uk" },
+    { name = "Toby P. Breckon", email = "toby.breckon@durham.ac.uk" },
+]
+keywords = [
+    "point cloud", "semantic segmentation", "LiDAR", "invariance feature",
+    "pointwise distance distribution", "autonomous driving",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = [
+    "torch>=2.0",
+    "numpy>=1.24",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0", "pytest-cov>=4.0", "pre-commit>=3.0"]
+all = ["pyyaml>=6.0", "matplotlib>=3.7"]
+# NOTE: the default MinkUNet34 backbone additionally needs MinkowskiEngine
+# (NVIDIA CUDA only); see README for install instructions.
+
+[project.urls]
+Homepage = "https://github.com/l1997i/rapid_seg"
+Paper = "https://arxiv.org/abs/2407.10159"
+
+[tool.setuptools.packages.find]
+include = ["rapid_seg*"]
+
+[tool.pytest.ini_options]
+testpaths = ["rapid_seg/tests"]
